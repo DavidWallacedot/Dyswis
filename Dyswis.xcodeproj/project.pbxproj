@@ -14,6 +14,7 @@
 		DB6DD2DA2154127100267FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2D82154127100267FBE /* LaunchScreen.storyboard */; };
 		DB6DD2E52154127100267FBE /* DyswisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2E42154127100267FBE /* DyswisTests.swift */; };
 		DB6DD2F02154127100267FBE /* DyswisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2EF2154127100267FBE /* DyswisUITests.swift */; };
+		DB6DD3002154206B00267FBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2FF2154206B00267FBE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DB6DD2EB2154127100267FBE /* DyswisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyswisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6DD2EF2154127100267FBE /* DyswisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyswisUITests.swift; sourceTree = "<group>"; };
 		DB6DD2F12154127100267FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6DD2FF2154206B00267FBE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DB6DD2C32154127100267FBE = {
 			isa = PBXGroup;
 			children = (
+				DB6DD2FF2154206B00267FBE /* Default-568h@2x.png */,
 				DB6DD2CE2154127100267FBE /* Dyswis */,
 				DB6DD2E32154127100267FBE /* DyswisTests */,
 				DB6DD2EE2154127100267FBE /* DyswisUITests */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6DD2DA2154127100267FBE /* LaunchScreen.storyboard in Resources */,
+				DB6DD3002154206B00267FBE /* Default-568h@2x.png in Resources */,
 				DB6DD2D72154127100267FBE /* Assets.xcassets in Resources */,
 				DB6DD2D52154127100267FBE /* Main.storyboard in Resources */,
 			);
