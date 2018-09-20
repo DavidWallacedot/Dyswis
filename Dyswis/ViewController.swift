@@ -10,7 +10,7 @@ import UIKit
 import AVKit
 import AVFoundation
 class ViewController: UIViewController {
-
+let controller = AVPlayerViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,9 +33,8 @@ class ViewController: UIViewController {
         
         // Create a new AVPlayerViewController and pass it a reference to the player.
         
-        let controller = AVPlayerViewController()
-        controller.player = player
         
+        controller.player = player
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.itemFinished), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: controller)
         // Modally present the player and call the player's play() method when complete.
         present(controller, animated: true) {
@@ -46,11 +45,11 @@ class ViewController: UIViewController {
     }
     @objc func itemFinished()->Void{
         let btn = UIButton(type: .system)
-        btn.addTarget(self, action: #selector(ViewController.buttonTapped), for: .TouchUpInside)
-        self.playerVC.contentOverlayView?.addSubview(btn)
+        btn.addTarget(self, action: #selector(ViewController.buttonTapped), for: .touchUpInside)
+        self.controller.contentOverlayView?.addSubview(btn)
     }
     
-    func buttonTapped(){
+    @objc func buttonTapped(){
         print("The button was tapped")
     }
     
