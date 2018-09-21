@@ -13,13 +13,12 @@
         <!--Navigation Controller-->
         <scene sceneID="Vkk-r7-f0c">
             <objects>
-                <navigationController toolbarHidden="NO" hidesBarsWhenKeyboardAppears="YES" id="ybi-RY-f9m" sceneMemberID="viewController">
+                <navigationController hidesBarsWhenKeyboardAppears="YES" id="ybi-RY-f9m" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="vZJ-pY-2yJ">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="BVD-t2-CGX">
-                        <rect key="frame" x="0.0" y="729" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.018235913212435229" green="0.018235913212435229" blue="0.018235913212435229" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
