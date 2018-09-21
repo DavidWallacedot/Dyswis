@@ -7,15 +7,19 @@
 //
 
 import UIKit
-//import AVKit
-//import AVFoundation
+import AVKit
+import AVFoundation
 class ViewController: UIViewController {
     //let controller = AVPlayerViewController()
-    
+    fileprivate var locationAvPlayerViewController : AVPlayerViewController?
     override func viewDidLoad() {
         super.viewDidLoad()
+        guard let locationController = childViewControllers.first as? AVPlayerViewController else  {
+            fatalError("Check storyboard for missing LocationTableViewController")
+        }
         
-        
+        locationAvPlayerViewController = locationController
+        locationController.delegate = self as? AVPlayerViewControllerDelegate//sets app delegate view controller
         // Do any additional setup after loading the view, typically from a nib.
     }
     
