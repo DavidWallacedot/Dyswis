@@ -13,11 +13,17 @@
         <!--Navigation Controller-->
         <scene sceneID="Vkk-r7-f0c">
             <objects>
-                <navigationController id="ybi-RY-f9m" sceneMemberID="viewController">
+                <navigationController toolbarHidden="NO" hidesBarsWhenKeyboardAppears="YES" id="ybi-RY-f9m" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="vZJ-pY-2yJ">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="BVD-t2-CGX">
+                        <rect key="frame" x="0.0" y="729" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.018235913212435229" green="0.018235913212435229" blue="0.018235913212435229" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </toolbar>
                     <connections>
                         <segue destination="9qA-vI-sdw" kind="relationship" relationship="rootViewController" id="Cq6-j2-5pu"/>
                     </connections>
@@ -36,13 +42,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Kes-VV-uDK"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Act Of The Day" id="U8Z-oo-pu3">
                         <barButtonItem key="backBarButtonItem" title="You Thought" id="nLq-5U-wdQ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Commit" id="2gD-pT-5vb"/>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="99Q-Kh-Pux" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="-30"/>
+            <point key="canvasLocation" x="-335.19999999999999" y="-30.295566502463057"/>
         </scene>
     </scenes>
 </document>
