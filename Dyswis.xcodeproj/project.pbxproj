@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0407F92154546800616CC6 /* ActViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0407F82154546800616CC6 /* ActViewController.swift */; };
+		DB0407FB2154548000616CC6 /* ActOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0407FA2154548000616CC6 /* ActOfTheDay.swift */; };
 		DB6DD2D02154127100267FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2CF2154127100267FBE /* AppDelegate.swift */; };
-		DB6DD2D22154127100267FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2D12154127100267FBE /* ViewController.swift */; };
 		DB6DD2D52154127100267FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2D32154127100267FBE /* Main.storyboard */; };
 		DB6DD2D72154127100267FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2D62154127100267FBE /* Assets.xcassets */; };
 		DB6DD2DA2154127100267FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2D82154127100267FBE /* LaunchScreen.storyboard */; };
 		DB6DD2E52154127100267FBE /* DyswisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2E42154127100267FBE /* DyswisTests.swift */; };
 		DB6DD2F02154127100267FBE /* DyswisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2EF2154127100267FBE /* DyswisUITests.swift */; };
 		DB6DD3002154206B00267FBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2FF2154206B00267FBE /* Default-568h@2x.png */; };
+		DB962C92215467B600B2E8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB962C91215467B600B2E8C6 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB0407F82154546800616CC6 /* ActViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActViewController.swift; sourceTree = "<group>"; };
+		DB0407FA2154548000616CC6 /* ActOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActOfTheDay.swift; sourceTree = "<group>"; };
 		DB6DD2CC2154127100267FBE /* Dyswis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyswis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6DD2CF2154127100267FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB6DD2D12154127100267FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB6DD2D42154127100267FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB6DD2D62154127100267FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6DD2D92154127100267FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		DB6DD2EF2154127100267FBE /* DyswisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyswisUITests.swift; sourceTree = "<group>"; };
 		DB6DD2F12154127100267FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6DD2FF2154206B00267FBE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB962C91215467B600B2E8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				DB6DD2CF2154127100267FBE /* AppDelegate.swift */,
-				DB6DD2D12154127100267FBE /* ViewController.swift */,
 				DB6DD2D32154127100267FBE /* Main.storyboard */,
 				DB6DD2D62154127100267FBE /* Assets.xcassets */,
 				DB6DD2D82154127100267FBE /* LaunchScreen.storyboard */,
 				DB6DD2DB2154127100267FBE /* Info.plist */,
+				DB0407F82154546800616CC6 /* ActViewController.swift */,
+				DB0407FA2154548000616CC6 /* ActOfTheDay.swift */,
+				DB962C91215467B600B2E8C6 /* ViewController.swift */,
 			);
 			path = Dyswis;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6DD2D22154127100267FBE /* ViewController.swift in Sources */,
+				DB0407FB2154548000616CC6 /* ActOfTheDay.swift in Sources */,
+				DB0407F92154546800616CC6 /* ActViewController.swift in Sources */,
+				DB962C92215467B600B2E8C6 /* ViewController.swift in Sources */,
 				DB6DD2D02154127100267FBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
