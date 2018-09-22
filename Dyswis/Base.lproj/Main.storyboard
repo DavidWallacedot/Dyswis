@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -45,11 +46,28 @@
                                     <segue destination="Y0P-Zf-zYx" kind="embed" id="GTE-cf-WHN"/>
                                 </connections>
                             </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehm-uu-amb">
+                                <rect key="frame" x="26" y="679" width="53" height="50"/>
+                                <state key="normal" title="Button" image="icons8-topic-50">
+                                    <color key="titleColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCI-bU-XHn">
+                                <rect key="frame" x="312" y="679" width="47" height="43"/>
+                                <state key="normal" title="Button" image="icons8-tags-32">
+                                    <color key="titleColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Ehm-uu-amb" firstAttribute="top" secondItem="tCI-bU-XHn" secondAttribute="top" id="15A-pn-PZ3"/>
+                            <constraint firstItem="Ehm-uu-amb" firstAttribute="leading" secondItem="Kes-VV-uDK" secondAttribute="leading" constant="26" id="ReQ-NR-eNZ"/>
+                            <constraint firstItem="tCI-bU-XHn" firstAttribute="trailing" secondItem="huY-Nj-1N2" secondAttribute="trailingMargin" id="Ri1-td-oqz"/>
                             <constraint firstItem="GQP-3A-1Xg" firstAttribute="top" secondItem="Kes-VV-uDK" secondAttribute="top" id="ZqY-GH-VQd"/>
+                            <constraint firstItem="tCI-bU-XHn" firstAttribute="top" secondItem="GQP-3A-1Xg" secondAttribute="bottom" constant="8" symbolic="YES" id="dNw-m0-GiE"/>
                             <constraint firstItem="GQP-3A-1Xg" firstAttribute="leading" secondItem="huY-Nj-1N2" secondAttribute="leading" id="ePh-lH-WBI"/>
+                            <constraint firstItem="Ehm-uu-amb" firstAttribute="bottom" secondItem="Kes-VV-uDK" secondAttribute="bottom" id="p2s-v9-DT6"/>
                             <constraint firstAttribute="trailing" secondItem="GQP-3A-1Xg" secondAttribute="trailing" id="uBS-iR-uvN"/>
                             <constraint firstItem="Kes-VV-uDK" firstAttribute="bottom" secondItem="GQP-3A-1Xg" secondAttribute="bottom" constant="56" id="uEM-Mi-YQV"/>
                         </constraints>
@@ -58,13 +76,48 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Act Of The Day" id="U8Z-oo-pu3">
                         <barButtonItem key="backBarButtonItem" title="You Thought" id="nLq-5U-wdQ"/>
-                        <barButtonItem key="rightBarButtonItem" title="Commit" id="2gD-pT-5vb"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-menu-50" id="z1d-2N-fRl"/>
+                        <barButtonItem key="rightBarButtonItem" title="Create" image="icons8-corgi-50" id="2gD-pT-5vb"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="99Q-Kh-Pux" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335.19999999999999" y="-30.295566502463057"/>
+            <point key="canvasLocation" x="-335.5" y="-31"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="eM9-Ss-aFA">
+            <objects>
+                <collectionViewController id="rjC-bJ-NRG" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="d8j-JD-b5X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0GZ-Oc-MwD">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7Np-fh-ykg">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="rjC-bJ-NRG" id="Ssp-4j-hrf"/>
+                            <outlet property="delegate" destination="rjC-bJ-NRG" id="yBt-TG-MIu"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Il-iu-rcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-336" y="873"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="gEY-bT-9XG">
@@ -75,4 +128,10 @@
             <point key="canvasLocation" x="409" y="-30"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-corgi-50" width="50" height="50"/>
+        <image name="icons8-menu-50" width="50" height="50"/>
+        <image name="icons8-tags-32" width="32" height="32"/>
+        <image name="icons8-topic-50" width="50" height="50"/>
+    </resources>
 </document>
