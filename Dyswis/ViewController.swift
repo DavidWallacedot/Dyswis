@@ -10,6 +10,19 @@ import UIKit
 import AVKit
 import AVFoundation
 class ViewController: UIViewController {
+    
+    @IBAction func Create(_ sender: Any) {
+    }
+    
+    @IBAction func Menu(_ sender: Any) {
+    }
+    
+    @IBAction func CommentButton(_ sender: Any) {
+    }
+    
+    @IBAction func TagsButton(_ sender: Any) {
+    }
+    
     //let controller = AVPlayerViewController()
     fileprivate var locationAvPlayerViewController : AVPlayerViewController?
     override func viewDidLoad() {
