@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DB0407F92154546800616CC6 /* ActViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0407F82154546800616CC6 /* ActViewController.swift */; };
 		DB0407FB2154548000616CC6 /* ActOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0407FA2154548000616CC6 /* ActOfTheDay.swift */; };
-		DB1A48A22156AE040030D1C5 /* collectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A48A12156AE040030D1C5 /* collectionViewController.swift */; };
 		DB1A48A42156AE830030D1C5 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A48A32156AE830030D1C5 /* myCell.swift */; };
 		DB6DD2D02154127100267FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2CF2154127100267FBE /* AppDelegate.swift */; };
 		DB6DD2D52154127100267FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2D32154127100267FBE /* Main.storyboard */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		DB0407F82154546800616CC6 /* ActViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActViewController.swift; sourceTree = "<group>"; };
 		DB0407FA2154548000616CC6 /* ActOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActOfTheDay.swift; sourceTree = "<group>"; };
-		DB1A48A12156AE040030D1C5 /* collectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewController.swift; sourceTree = "<group>"; };
 		DB1A48A32156AE830030D1C5 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		DB6DD2CC2154127100267FBE /* Dyswis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyswis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6DD2CF2154127100267FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				DB0407F82154546800616CC6 /* ActViewController.swift */,
 				DB0407FA2154548000616CC6 /* ActOfTheDay.swift */,
 				DB962C91215467B600B2E8C6 /* ViewController.swift */,
-				DB1A48A12156AE040030D1C5 /* collectionViewController.swift */,
 			);
 			path = Dyswis;
 			sourceTree = "<group>";
@@ -274,7 +271,6 @@
 			files = (
 				DB0407FB2154548000616CC6 /* ActOfTheDay.swift in Sources */,
 				DB1A48A42156AE830030D1C5 /* myCell.swift in Sources */,
-				DB1A48A22156AE040030D1C5 /* collectionViewController.swift in Sources */,
 				DB0407F92154546800616CC6 /* ActViewController.swift in Sources */,
 				DB962C92215467B600B2E8C6 /* ViewController.swift in Sources */,
 				DB6DD2D02154127100267FBE /* AppDelegate.swift in Sources */,
