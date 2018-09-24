@@ -10,6 +10,7 @@
 		DB0407F92154546800616CC6 /* ActViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0407F82154546800616CC6 /* ActViewController.swift */; };
 		DB0407FB2154548000616CC6 /* ActOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0407FA2154548000616CC6 /* ActOfTheDay.swift */; };
 		DB1A48A42156AE830030D1C5 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A48A32156AE830030D1C5 /* myCell.swift */; };
+		DB4317212158695000A7425E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4317202158695000A7425E /* CollectionViewController.swift */; };
 		DB6DD2D02154127100267FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD2CF2154127100267FBE /* AppDelegate.swift */; };
 		DB6DD2D52154127100267FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2D32154127100267FBE /* Main.storyboard */; };
 		DB6DD2D72154127100267FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD2D62154127100267FBE /* Assets.xcassets */; };
@@ -40,7 +41,8 @@
 /* Begin PBXFileReference section */
 		DB0407F82154546800616CC6 /* ActViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActViewController.swift; sourceTree = "<group>"; };
 		DB0407FA2154548000616CC6 /* ActOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActOfTheDay.swift; sourceTree = "<group>"; };
-		DB1A48A32156AE830030D1C5 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		DB1A48A32156AE830030D1C5 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = myCell.swift; path = ../myCell.swift; sourceTree = "<group>"; };
+		DB4317202158695000A7425E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		DB6DD2CC2154127100267FBE /* Dyswis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyswis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6DD2CF2154127100267FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6DD2D42154127100267FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				DB6DD2FF2154206B00267FBE /* Default-568h@2x.png */,
-				DB1A48A32156AE830030D1C5 /* myCell.swift */,
 				DB6DD2CE2154127100267FBE /* Dyswis */,
 				DB6DD2E32154127100267FBE /* DyswisTests */,
 				DB6DD2EE2154127100267FBE /* DyswisUITests */,
@@ -109,12 +110,14 @@
 			children = (
 				DB6DD2CF2154127100267FBE /* AppDelegate.swift */,
 				DB6DD2D32154127100267FBE /* Main.storyboard */,
+				DB1A48A32156AE830030D1C5 /* myCell.swift */,
 				DB6DD2D62154127100267FBE /* Assets.xcassets */,
 				DB6DD2D82154127100267FBE /* LaunchScreen.storyboard */,
 				DB6DD2DB2154127100267FBE /* Info.plist */,
 				DB0407F82154546800616CC6 /* ActViewController.swift */,
 				DB0407FA2154548000616CC6 /* ActOfTheDay.swift */,
 				DB962C91215467B600B2E8C6 /* ViewController.swift */,
+				DB4317202158695000A7425E /* CollectionViewController.swift */,
 			);
 			path = Dyswis;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4317212158695000A7425E /* CollectionViewController.swift in Sources */,
 				DB0407FB2154548000616CC6 /* ActOfTheDay.swift in Sources */,
 				DB1A48A42156AE830030D1C5 /* myCell.swift in Sources */,
 				DB0407F92154546800616CC6 /* ActViewController.swift in Sources */,
